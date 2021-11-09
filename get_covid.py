@@ -8,11 +8,11 @@ country_data = response.json()["Countries"]
 today = datetime.today().strftime('%Y-%m-%d')
 
 def delete_keys(country):
-    del country["ID"]
-    del country["Slug"]
+    # del country["ID"]
+    # del country["Slug"]
     del country["Premium"]
-    del country["NewRecovered"]
-    del country["TotalRecovered"]
+    # del country["NewRecovered"]
+    # del country["TotalRecovered"]
     country["Date"] = country["Date"][:10]
     return country
 

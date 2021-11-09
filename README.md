@@ -14,5 +14,5 @@ How the data flows:
   <li>Send request to Covid-19 API for daily snapshot data. Get rid of unneeded key/value pairs and store response in a JSON file locally</li>
   <li>Using Google Cloud Storage API, load JSON into the bucket</li>
   <li>Call the Cloud Function to load JSON into BigQuery dataset as a single table (Functions gets triggered whenever a new JSON lands in bucket</li>
-  <li>Visualisation tool to get data from BigQuery?</li>
+  <li>Use Metabase connected to the Covid dataset as a visualisation tool </li>
 </ol>

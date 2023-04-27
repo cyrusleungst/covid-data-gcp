@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this project is to explore beginner data engineering concepts and how data pipelines can be built. I will use this opportunity to learn about the Google Cloud Platorm as well.
+The objective of this project is to explore beginner data engineering concepts and how data pipelines can be built. I will use this opportunity to learn about the Google Cloud Platorm as well
 
 ## Technicals
 
